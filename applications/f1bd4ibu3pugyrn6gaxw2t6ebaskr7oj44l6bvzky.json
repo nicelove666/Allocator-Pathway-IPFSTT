@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1bd4ibu3pugyrn6gaxw2t6ebaskr7oj44l6bvzky",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "Environment",
+    "Region": "South Africa",
+    "Industry": "Environment",
+    "Website": "https://www.digitalearthafrica.org/",
+    "Social Media": "Twitter: https://twitter.com/DEarthAfrica      Youtube: https://www.youtube.com/channel/UCBasD3Dz-TdQTRoyG30kVVw",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "001",
+    "Brief history of your project and organization": "DataFortress boasts a team of 20 technical experts who are dedicated to exploring the IPFS and Filecoin domains and possess extensive experience in distributed storage and computing. Our team has a deep understanding of the key technologies of IPFS and Filecoin and has accumulated a wealth of experience in the field of DC data downloading and distribution. We are capable of providing comprehensive technical solutions to clients.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Landsat scenes and metadata. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://deafrica-landsat/\r\ns3://deafrica-landsat-inventory/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f01025366, ShanDong-QingDao\r\n2.f02940074, JiangXi-FuZhou\r\n3.f02951064, ZheJiang-JinHua\r\n4.f02984282, HeNan-ZhengZhou",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-26 03:58:11.493816605 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1bd4ibu3pugyrn6gaxw2t6ebaskr7oj44l6bvzky",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
