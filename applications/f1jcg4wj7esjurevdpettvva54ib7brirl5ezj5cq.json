@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1jcg4wj7esjurevdpettvva54ib7brirl5ezj5cq",
+  "Issue Number": "10",
+  "Client": {
+    "Name": "USGS",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.usgs.gov/",
+    "Social Media": "https://www.usgs.gov/",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "USGS-01",
+    "Brief history of your project and organization": "TechToolbox is a technology services company that specializes in providing comprehensive solutions to our clients. We have a deep understanding of FILECOIN and excel at utilizing various tools to meet our clients' needs.\r\n\r\nOur team consists of technical experts with extensive experience in the field. We recognize the significance of technology in modern business and are committed to delivering innovative and efficient solutions to our clients.\r\n\r\nIn the realm of FILECOIN, we are expert partners. We comprehend the working principles, potential, and application scenarios of FILECOIN, and we possess the expertise to optimize your FILECOIN experience using a wide range of tools and technologies.\r\n\r\nOur services encompass a broad range of areas, including technology consulting, system integration, software development, and data analysis. Whether you are a startup or a well-established enterprise, we can provide customized solutions tailored to your specific requirements.\r\n\r\nWe prioritize our clients' success and work closely with them to ensure that our solutions help them achieve their business objectives. We are not just technology providers; we are collaborative partners dedicated to delivering excellence in technical services.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "USGS (United States Geological Survey) is a renowned open data website that serves as a valuable resource for a wide range of scientific information. This publicly accessible platform acts as a repository for diverse categories of data, including biology, climate, coastlines, ecosystems, geology, natural disasters, oceans, cartography, and planetary science.\r\n\r\nWith an extensive collection of data, USGS houses a staggering 10 Petabytes (10 Pib) of metadata. This vast wealth of information is made available to the public, allowing users to freely download, store, and utilize the data for various purposes.\r\n\r\nUSGS plays a crucial role in advancing scientific research, environmental studies, and resource management. The website serves as a hub for researchers, policymakers, educators, and the general public, offering a wealth of knowledge and insights into our natural world.\r\n\r\nThe data hosted on USGS covers a broad spectrum of disciplines, providing valuable insights into the Earth's systems and processes. From studying climate patterns and understanding geological formations to analyzing ecosystems and managing natural hazards, the website offers a comprehensive suite of data resources.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.sciencebase.gov/catalog/item/65a1dad5d34e5af967a450d7\r\nhttps://www.usgs.gov/products/data/all-data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02951064, ZheJiang-JinHua\r\nf02984282, HeNan-ZhengZhou\r\nf0122215, ShanDong-QingDao\r\nf0427989, ShanDong-QingDao\r\nf02942808, GuangDong-ShenZhen\r\nf02894875, JiangXi-FuZhou",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-03 09:09:35.761198467 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-04-03 09:11:25.032243179 UTC",
+    "Active Request ID": "7b2df53c-dce5-483d-a602-dc4ccfddc66c",
+    "On Chain Address": "f1jcg4wj7esjurevdpettvva54ib7brirl5ezj5cq",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "7b2df53c-dce5-483d-a602-dc4ccfddc66c",
+      "Request Type": "First",
+      "Created At": "2024-04-03 09:09:35.761206640 UTC",
+      "Updated At": "2024-04-03 09:09:35.761207824 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-04-03 09:11:21.732000000 UTC",
+          "Message CID": "bafy2bzacebk6po45x57rtrqao5xo7bdx3fu5q2sbxseaeye4h3z7t4hrqx4be"
+        }
+      ]
+    }
+  ]
+}
