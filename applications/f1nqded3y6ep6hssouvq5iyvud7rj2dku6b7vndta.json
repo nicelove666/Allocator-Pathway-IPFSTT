@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "FileTech-01",
     "Brief history of your project and organization": "FileTech focuses on providing excellent data storage solutions. We have a passionate and knowledgeable team with extensive experience and expertise in the field of data storage. Whether it's data storage, data management, data recovery, or data center design and construction, we possess abundant technical capabilities and solutions.\r\n\r\nAt FileTech, we understand the importance of data in modern businesses. We not only offer high-performance data storage devices and solutions, but also provide comprehensive data management tools to help clients efficiently organize, classify, and protect their data assets.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Landsat scenes and metadata. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions.",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "200TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-19 02:27:38.245380162 UTC",
     "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-04-19 02:30:23.688528056 UTC",
-    "Active Request ID": "3421d598-e67f-4fa5-b224-009f1319e476",
+    "Updated At": "2024-05-26 13:00:03.600484548 UTC",
+    "Active Request ID": "e96ac102-88ce-4ce1-b508-32e814d08644",
     "On Chain Address": "f1nqded3y6ep6hssouvq5iyvud7rj2dku6b7vndta",
     "Multisig Address": "false",
     "edited": null
@@ -62,6 +61,15 @@
           "Message CID": "bafy2bzacecwpcrryhtngzmirsttoypanxsodw3z7zgodyggh2jeoxu2qb55rk"
         }
       ]
+    },
+    {
+      "ID": "e96ac102-88ce-4ce1-b508-32e814d08644",
+      "Request Type": "Refill",
+      "Created At": "2024-05-26 13:00:03.600498974 UTC",
+      "Updated At": "2024-05-26 13:00:03.600500696 UTC",
+      "Active": true,
+      "Allocation Amount": "200TiB",
+      "Signers": []
     }
   ]
 }
