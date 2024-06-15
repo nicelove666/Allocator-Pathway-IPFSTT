@@ -35,15 +35,25 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-06-15 04:36:53.748545525 UTC",
+    "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-06-14 02:05:00.519874875 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-06-15 04:36:53.748550086 UTC",
+    "Active Request ID": "bdb2cb75-1955-404c-ac63-608f0e824291",
     "On Chain Address": "f1xyhrgnsmgkfz7u2rbxpewzidpi2sgxf5rwozuhi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "bdb2cb75-1955-404c-ac63-608f0e824291",
+      "Request Type": "First",
+      "Created At": "2024-06-15 04:36:53.748552376 UTC",
+      "Updated At": "2024-06-15 04:36:53.748553939 UTC",
+      "Active": true,
+      "Allocation Amount": "256TiB",
+      "Signers": []
+    }
+  ]
 }
