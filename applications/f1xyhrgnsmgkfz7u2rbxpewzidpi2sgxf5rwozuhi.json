@@ -35,11 +35,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-06-15 04:36:53.748545525 UTC",
     "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-06-15 04:36:53.748550086 UTC",
+    "Updated At": "2024-06-15 04:38:29.409716516 UTC",
     "Active Request ID": "bdb2cb75-1955-404c-ac63-608f0e824291",
     "On Chain Address": "f1xyhrgnsmgkfz7u2rbxpewzidpi2sgxf5rwozuhi",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-06-15 04:36:53.748552376 UTC",
       "Updated At": "2024-06-15 04:36:53.748553939 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "256TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-06-15 04:38:27.001000000 UTC",
+          "Message CID": "bafy2bzaceck4b36clktohqdbzwj56ce6px7zwcc2fsxt4e5lgxxb3s3oosqz2"
+        }
+      ]
     }
   ]
 }
