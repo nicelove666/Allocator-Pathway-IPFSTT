@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, North America, Europe",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Polaris    f02951213   Singapore \r\nShenSuanCloud  f03035686   Nanchang, Jiangxi, CN\r\nCoffeeCloud  f03086293   Hong Kong\r\nCoffeeCloud  f03136267   Hong Kong\r\nRound Arithmetic    f02200472   Chengdu, Sichuan, CN\r\nIndividual    f02956383    Hong Kong\r\n",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Polaris    f02951213   Singapore \r\nShenSuanCloud  f03035686   Nanchang, Jiangxi, CN\r\nCoffeeCloud  f03086293   Hong Kong\r\nCoffeeCloud  f03136267   Hong Kong\r\nRound Arithmetic    f02200472   Chengdu, Sichuan, CN\r\nIndividual    f02956383    Hong Kong\r\nLucky Star     f03068013   Hong Kong\r\n",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -39,7 +39,7 @@
     "Validated At": "2024-06-15 04:36:53.748545525 UTC",
     "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-06-16 12:27:09.461718925 UTC",
+    "Updated At": "2024-06-18 03:00:03.806753518 UTC",
     "Active Request ID": "6970e883-0af4-43a2-8b59-346aed43c776",
     "On Chain Address": "f1xyhrgnsmgkfz7u2rbxpewzidpi2sgxf5rwozuhi",
     "Multisig Address": "false",
