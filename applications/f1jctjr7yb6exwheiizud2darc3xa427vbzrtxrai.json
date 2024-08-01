@@ -39,8 +39,8 @@
     "Validated At": "2024-07-21 02:11:59.729849956 UTC",
     "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-07-23 07:00:31.713845365 UTC",
-    "Active Request ID": "33fa3777-1bca-45e3-ad6e-ea20210d1aff",
+    "Updated At": "2024-08-01 12:06:07.314049527 UTC",
+    "Active Request ID": "0aec2238-69e5-4c64-8a02-eb80893ff49f",
     "On Chain Address": "f1jctjr7yb6exwheiizud2darc3xa427vbzrtxrai",
     "Multisig Address": "false",
     "edited": false
@@ -59,6 +59,22 @@
           "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
           "Created At": "2024-07-23 07:00:28.802000000 UTC",
           "Message CID": "bafy2bzaceaptps3ipcjvaubuegwfkiy5sgyjyazpop3i5hoiigzyhc5k4oejm"
+        }
+      ]
+    },
+    {
+      "ID": "0aec2238-69e5-4c64-8a02-eb80893ff49f",
+      "Request Type": "Refill",
+      "Created At": "2024-08-01 12:04:42.779499232 UTC",
+      "Updated At": "2024-08-01 12:04:42.779500666 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-08-01 12:06:04.794000000 UTC",
+          "Message CID": "bafy2bzaceb7gilbteitsafqkgsmzkm5cptxpjk63im44ekmvl72p2kqwhr4x2"
         }
       ]
     }
