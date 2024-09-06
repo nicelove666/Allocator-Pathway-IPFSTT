@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1blcdr5udxdsxls6wvltwv46eo4iyivxmhhfsniy",
+  "Issue Number": "51",
+  "Client": {
+    "Name": "ePublishing",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.epublishing.com/about/",
+    "Social Media": "https://www.epublishing.com/about/",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "ePublishing is an integrated modern media tech stack driving revenue, improving productivity, and increasing engagement for publishers of content and data. They streamline editorial and audience workflows, amplify content delivery, diversify and grow revenue, and leverage a unified, data-first publishing ecosystem.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data being stored are the archives and historical editorial and images from media companies - from daily newspapers to monthly magazines - that may reach back as far as 100 years.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://i.imgur.com/P4eoAZw.png\r\n\r\nSample image used in a old new york times article, one that epublishing manages and stores.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02838518  Moscow, Moscow, RU   \r\nf02832475  Bangkok, Bangkok, TH\r\nf02859053 Hanover, New Jersey, US\r\nf02826253 SINGAPORE\r\nf02826815 HK\r\nf03151449 SHENZHEN\r\nf03151456 SHENZHEN",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-09-06 04:06:44.538899697 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-09-06 04:11:14.017950742 UTC",
+    "Active Request ID": "d0584abe-f05b-407b-b44a-f7264ffcd2ea",
+    "On Chain Address": "f1blcdr5udxdsxls6wvltwv46eo4iyivxmhhfsniy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "d0584abe-f05b-407b-b44a-f7264ffcd2ea",
+      "Request Type": "First",
+      "Created At": "2024-09-06 04:06:44.538914117 UTC",
+      "Updated At": "2024-09-06 04:06:44.538916120 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-09-06 04:11:11.230000000 UTC",
+          "Message CID": "bafy2bzacec777u6qvhcbu4yjkivnrm4kgdz6onbhj4b47jzl6fntxts4azvvq"
+        }
+      ]
+    }
+  ]
+}
