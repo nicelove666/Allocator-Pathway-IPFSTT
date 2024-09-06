@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1ifaqhylvx24mthmjjmro643vs75hapf5agu7qoy",
+  "Issue Number": "53",
+  "Client": {
+    "Name": "Allen Institute",
+    "Region": "American Samoa",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/?search=managedBy:allen%20institute",
+    "Social Media": "Timothea01",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "I'm the tech lead for pubang and would like to bring more public data to filecoin",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "aws s3 ls --no-sign-request s3://allen-brain-observatory/   158.8 TiB\r\naws s3 ls --no-sign-request s3://allen-mouse-brain-atlas/ 190.0 TiB",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use Lotus Boost and singularity to prepare the data",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://allen-brain-observatory/   158.8 TiB\r\naws s3 ls --no-sign-request s3://allen-mouse-brain-atlas/ 190.0 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02822222 Hong Kong\r\nf02368946 Beijing\r\nf02362412 California\r\nf02639492 California\r\nf03166666 Hongkong\r\nf03166668 Hongkong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "348TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-09-06 07:54:55.495718148 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-09-06 07:56:23.258724908 UTC",
+    "Active Request ID": "f867b56d-862e-40a3-a04b-3ae0119f37f2",
+    "On Chain Address": "f1ifaqhylvx24mthmjjmro643vs75hapf5agu7qoy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "f867b56d-862e-40a3-a04b-3ae0119f37f2",
+      "Request Type": "First",
+      "Created At": "2024-09-06 07:54:55.495725555 UTC",
+      "Updated At": "2024-09-06 07:54:55.495727488 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-09-06 07:56:20.813000000 UTC",
+          "Message CID": "bafy2bzaceduivf5fdaxcjvlinbz4hyz4gdkncadrbxsvy4kqmmrhewms7ei2g"
+        }
+      ]
+    }
+  ]
+}
