@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f14jvqfbgsd26mhsq4ncntygxf3qwh6copyxib55y",
+  "Issue Number": "49",
+  "Client": {
+    "Name": "Gechuang Dongzhi Technology Co., Ltd.",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "https://getech.cn/",
+    "Social Media": "https://getech.cn/",
+    "Social Media Type": "WeChat",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Gechuang Dongzhi Technology Co., Ltd. was established in 2018 and has three core industries: semiconductor display, new energy photovoltaic and semiconductor materials, and intelligent terminals. Gechuang Dongzhi adheres to the \"production site-oriented\" research and development direction, uses standardized platforms, industrial applications and industry solutions to meet the needs of manufacturing enterprises for intelligence, and is committed to the research and development and innovation of factory intelligent operating systems.\r\n\r\nRelying on core technical capabilities such as AI, cloud computing, and big data, Gechuang Dongzhi adheres to the strategy of integrating software and hardware, uses software and algorithms to drive the intelligent upgrade of equipment and edge control hardware, and develops an industrial intelligent product system that integrates software and hardware.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "ai data\r\nmanufacturing data\r\nproduction data\r\nLogistics data, etc.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1iuJe-qtElwV530AMyQf9oGj3vBQNw2m3?usp=sharing",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03202108  HK\r\nf03157905  GuangDong\r\nf03157910  GuangDong\r\nf09693     Sichuan\r\nf03078786  Dongguan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1024TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-09-26 09:46:17.488419068 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-09-26 09:49:15.570622916 UTC",
+    "Active Request ID": "9022a59e-bc9e-4bbf-8e5d-c016b25f5a23",
+    "On Chain Address": "f14jvqfbgsd26mhsq4ncntygxf3qwh6copyxib55y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "9022a59e-bc9e-4bbf-8e5d-c016b25f5a23",
+      "Request Type": "First",
+      "Created At": "2024-09-26 09:46:17.488450783 UTC",
+      "Updated At": "2024-09-26 09:46:17.488452396 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-09-26 09:49:12.773000000 UTC",
+          "Message CID": "bafy2bzacecx7shteo3p2ira77mkotqx53dwnxzruxzuawbbf5icdhocqlqb76"
+        }
+      ]
+    }
+  ]
+}
