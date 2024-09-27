@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02953066\r\nf02956073\r\nf02837684\r\nf03028412\r\nf02809368\r\nf02812314",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Data Solutions -- f02984331 --Australia \r\nCoffee Cloud -- f02883857-- Singapore \r\nCloudWings -- f02852273-- United Kingdom \r\nSmart Data -- f02973061-- Russia",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
