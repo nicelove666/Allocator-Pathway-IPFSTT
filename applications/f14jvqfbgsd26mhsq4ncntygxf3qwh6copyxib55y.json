@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-10-02 04:44:54.997427559 UTC",
+    "Validated At": "2024-10-04 14:27:55.866268499 UTC",
     "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2024-10-02 04:47:33.394290056 UTC",
-    "Active Request ID": "6529290c-9126-47fb-9b7c-7528379a54e5",
+    "Updated At": "2024-10-04 14:31:03.664878603 UTC",
+    "Active Request ID": "52ecc92e-6539-4619-a2af-c005219c6478",
     "On Chain Address": "f14jvqfbgsd26mhsq4ncntygxf3qwh6copyxib55y",
     "Multisig Address": "false",
     "edited": false
@@ -75,6 +75,22 @@
           "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
           "Created At": "2024-10-02 04:47:30.220000000 UTC",
           "Message CID": "bafy2bzacechwhfc4pkeereukgy3te3n2gpmdkyus7aaoyvrbl54bp66adizcc"
+        }
+      ]
+    },
+    {
+      "ID": "52ecc92e-6539-4619-a2af-c005219c6478",
+      "Request Type": "Refill",
+      "Created At": "2024-10-04 14:27:55.866275722 UTC",
+      "Updated At": "2024-10-04 14:27:55.866276389 UTC",
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-10-04 14:31:00.234000000 UTC",
+          "Message CID": "bafy2bzaceduzlu36h3divkppclevwsf3a5i5ahdwfxqn66c6tt34oeb7orzv6"
         }
       ]
     }
