@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1cx4a3awirb4nkxw5isxxa5rt2xafjflbnx3cmzq",
+  "Issue Number": "72",
+  "Client": {
+    "Name": "European Union",
+    "Region": "Luxembourg",
+    "Industry": "Government",
+    "Website": "https://data.europa.eu/",
+    "Social Media": "X: https://x.com/EU_opendata",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "At Modrons' Law, we believe that rules and laws are the fundamental principles governing the world, and that the mechanical paradigm is the key to the advancement of civilization. Humanity is progressively deepening its understanding of these principles, categorizing them into various scientific disciplines. As civilization evolves by emulating these principles—whether socially or mathematically—our comprehension of the world's rules is both validated and enhanced. Our mission is to drive this emulation forward in the field of computer science, fostering innovation and progress.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The European Data organization, led by the EU, offers a broad range of datasets across various fields, such as environment, economy, healthcare, and demographics. These datasets support research, policy-making, and innovation, aiming to increase transparency and stimulate growth through data-driven approaches. The data is designed for easy use across different sectors and regions within the EU.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.europa.eu/data/datasets/b0203a76-ab90-4564-9789-9b7c21fb9c65~~1",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03215853, US\r\nf03218576, US\r\nf03220176, HongKong\r\nf03157910, Guangdong, China\r\nf03224283, Japan\r\nf03224551, Japan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5 PiB",
+    "Single Size Dataset": "1 PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "800 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-10-08 02:59:54.990016927 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1cx4a3awirb4nkxw5isxxa5rt2xafjflbnx3cmzq",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
