@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1kqnifax2s37vot34zweny7hl42drzxt37w5qhfq",
+  "Issue Number": "74",
+  "Client": {
+    "Name": "Dazhu County Wannongda agricultural development limited liability company",
+    "Region": "China",
+    "Industry": "Resources, Agriculture & Fisheries",
+    "Website": "www.wannongda.net",
+    "Social Media": "www.wannongda.net",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "General projects: spice crop cultivation; Fruit cultivation; Tea planting; Vegetable cultivation; Nut cultivation; Bean planting; Tobacco cultivation; Sugar crop cultivation; Tree planting and management; Fertilizer sales; Agricultural machinery sales; Agricultural film sales; Conference and exhibition services; Marketing of pesticides for health use; Livestock and fishery feed sales; Sales of agricultural and sideline products; Sales of forestry products; Primary processing of edible agricultural products; Wholesale of edible agricultural products; Retail of edible agricultural products; Fresh vegetable wholesale; Purchase of primary agricultural products; Sales of specialized machinery for agriculture, forestry, animal husbandry, auxiliary and fishery; Internet sales (except sales of goods that require a license); Installation and maintenance of specialized machinery for agriculture, forestry, animal husbandry and secondary fishery; Crop pest control services; Business agency service; Technical service, technology development, technology consultation, technology exchange, technology transfer, technology.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Various farming techniques.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "I'm a data preparer and I use Lotus/Boost",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cloud.189.cn/web/share?code=IZbmqaJ7zaia",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02822222 Hong Kong\r\nf02368946 Beijing\r\nf02362412 California\r\nf02639492 California\r\nf03166666 Hongkong\r\nf03166668 Hongkong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "350TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-10-08 15:44:33.248055221 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-10-08 15:47:33.472626735 UTC",
+    "Active Request ID": "c9668930-730c-4cf6-9ec4-d775e814c796",
+    "On Chain Address": "f1kqnifax2s37vot34zweny7hl42drzxt37w5qhfq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "c9668930-730c-4cf6-9ec4-d775e814c796",
+      "Request Type": "First",
+      "Created At": "2024-10-08 15:44:33.248064534 UTC",
+      "Updated At": "2024-10-08 15:44:33.248065444 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-10-08 15:47:30.167000000 UTC",
+          "Message CID": "bafy2bzacedu4zere7rptuny2n4ihlxo2wlbjq6gruqxnqzmpproiuyqcfnsiw"
+        }
+      ]
+    }
+  ]
+}
