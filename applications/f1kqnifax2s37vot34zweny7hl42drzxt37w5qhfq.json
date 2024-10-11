@@ -17,7 +17,7 @@
     "Describe the data being stored onto Filecoin": "Various farming techniques.",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "I'm a data preparer and I use Lotus/Boost",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cloud.189.cn/web/share?code=IZbmqaJ7zaia",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cloud.189.cn/web/share?code=nEriQzzIFn2i（访问码：cih5）",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
@@ -43,7 +43,7 @@
     "Active Request ID": "36b59043-92a6-449b-8c07-734937b9e45d",
     "On Chain Address": "f1kqnifax2s37vot34zweny7hl42drzxt37w5qhfq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
