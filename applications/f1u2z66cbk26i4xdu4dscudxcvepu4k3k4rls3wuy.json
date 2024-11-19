@@ -12,7 +12,7 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Brief history of your project and organization": "FrogHub has always defined itself as a tool developer and infrastructure builder in the Filecoin ecosystem. In 2019, we started to focus on technical solutions and development based on the IPFS protocol and Filecoin network. We have been working hard to become a qualified builder in the filecoin ecosystem.\r\n\r\nOur team is a very pure development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\r\n\r\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover and the nft free authoring platform NFT-Creator.\r\nIn addition, we plan to provide a sector browser for the community in 2023 and build the liquidity pledge platform STFIL on FVM.\r\n\r\nSee the links below for details.\r\n- making: https://github.com/orgs/froghub-io",
+    "Brief history of your project and organization": "I am a tool developer in the Filecoin ecosystem. have more than 5 years of development experience in communication, Internet, blockchain and other industries. \r\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover.\r\n",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The Sentinel-2 mission is a land monitoring constellation of two satellites that provide high resolution optical imagery and provide continuity for the current SPOT and Landsat missions. The mission provides a global coverage of the Earth's land surface every 5 days, making the data of great use in ongoing studies. This dataset is the same as the Sentinel-2 dataset, except the JP2K files were converted into Cloud-Optimized GeoTIFFs (COGs). Additionally, SpatioTemporal Asset Catalog metadata has were in a JSON file alongside the data, and a STAC API called Earth-search is freely available to search the archive. This dataset contains all of the scenes in the original Sentinel-2 Public Dataset and will grow as that does. L2A data are available from April 2017 over wider Europe region and globally since December 2018.\r\n\r\nUpdate Frequency\r\nNew Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.\"\r\n\r\nSource: https://registry.opendata.aws/sentinel-2-l2a-cogs/",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
@@ -23,14 +23,14 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "| MinerID | Entity | City | Continent |\r\n| --------- | ---------- | ---------- | --------- |\r\n| f0870354 | Personal  | beijing | CN |\r\n| f02806894   | Chimsen | Seoul | Korea |\r\n| f01854510  | 3cloud tech| HongKong | CN |\r\n| f02803754  | Personal | Osaka | Japan |\r\nThese are some of the SPs we are currently cooperating with, and more SPs may join in the future. I have already done KYC in other applications. I can do it again if necessary.",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03239692 | HongKong | CN |\r\nf03220176 | HongKong | CN |\r\nf03215853 | US |\r\nf03218576 | US |\r\nf09693 | CN |\r\nf01926635 | CN |\r\n\r\nThese are some of the SPs we are currently cooperating with, and more SPs may join in the future. ",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "15PiB",
-    "Single Size Dataset": "1PiB-3pib",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
     "Replicas": 10,
     "Weekly Allocation": "1PiB"
   },
