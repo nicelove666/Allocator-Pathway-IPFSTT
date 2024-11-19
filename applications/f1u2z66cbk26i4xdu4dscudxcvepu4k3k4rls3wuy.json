@@ -18,7 +18,7 @@
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "After we download data from the Internet, the data is cut into disks through Singularity, and then the hard disk is mailed to the SPs.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://sentinel-cogs/(16.4 PiB)\r\ns3://sentinel-cogs-inventory/(3.4 TiB)",
-    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ok] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
