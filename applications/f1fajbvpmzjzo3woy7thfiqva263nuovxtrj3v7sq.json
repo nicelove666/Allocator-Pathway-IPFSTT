@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1fajbvpmzjzo3woy7thfiqva263nuovxtrj3v7sq",
+  "Issue Number": "97",
+  "Client": {
+    "Name": "NREL National Solar Radiation Database",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://nsrdb.nrel.gov/",
+    "Social Media": "https://nsrdb.nrel.gov/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Dear allocator, Filecoin Foundation and PL, I am a Filecoin enthusiast and technology geek. I do not belong to any company, but I have been working on the Filecoin network for two years. We are familiar with Filecoin technical principles and technical architecture, and are familiar with data storage and maintenance. With various major processes and DC experience, we are already downloading the data of LAMOST DR7.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Released to the public as part of the Department of Energy's Open Energy Data Initiative, the National Solar Radiation Database (NSRDB) is a serially complete collection of hourly and half-hourly values of the three most common measurements of solar radiation – global horizontal, direct normal, and diffuse horizontal irradiance — and meteorological data. These data have been collected at a sufficient number of locations and temporal and spatial scales to accurately represent regional solar radiation climates.\"\r\n\r\nSource: https://registry.opendata.aws/nrel-pds-nsrdb/",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://nrel-pds-nsrdb/ (420.8 TiB)\r\ns3://nrel-pds-nsrdb/v3/(47.5 TiB)\r\ns3://nrel-pds-nsrdb/v3/tmy/(4.0 TiB)\r\ns3://nrel-pds-nsrdb/v3/tdy/(4.0 TiB)\r\ns3://nrel-pds-nsrdb/v3/tgy/(4.0 TiB)\r\ns3://nrel-pds-nsrdb/v3/puerto_rico/(114.6 GiB)\r\ns3://nrel-pds-nsrdb/conus/(48.2 TiB)\r\ns3://nrel-pds-nsrdb/full_disc/(81.8 TiB)\r\ns3://nrel-pds-nsrdb/meteosat/(16.1 TiB)\r\ns3://nrel-pds-nsrdb/himawari/(189.1 TiB)\r\ns3://nrel-pds-nsrdb/india/(515.3 GiB)",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02035256 Ziyang\r\nf03260592 Ya'an\r\nf03220172 Singapore\r\nf03239692 Hong Kong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "800TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-29 15:12:33.357123745 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2024-11-29 15:12:33.357120310 UTC",
+    "Active Request ID": "ebf013a2-a73b-4edc-8ba8-443a3485a263",
+    "On Chain Address": "f1fajbvpmzjzo3woy7thfiqva263nuovxtrj3v7sq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ebf013a2-a73b-4edc-8ba8-443a3485a263",
+      "Request Type": "First",
+      "Created At": "2024-11-29 15:09:19.364508943 UTC",
+      "Updated At": "2024-11-29 15:09:19.364510156 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2024-11-29 15:12:30.258000000 UTC",
+          "Message CID": "bafy2bzacebhypfht2tnrdehhnynnatmambfrbvhexdt4gmqebzdounabryh6y"
+        }
+      ]
+    }
+  ]
+}
