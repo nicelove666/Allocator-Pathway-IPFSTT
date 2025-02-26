@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Terrain Tiles includes data such as agriculture\\disaster response\\ earth observation\\ elevation\\ geospatial. It is an AWS dataset based on the environment.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "We are very familiar with the Filecoin network. We have developed software, have mature data processing capabilities, and have processed a lot of data.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/terrain-tiles/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Monthly",
