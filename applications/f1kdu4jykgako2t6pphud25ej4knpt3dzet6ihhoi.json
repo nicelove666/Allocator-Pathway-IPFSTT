@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1kdu4jykgako2t6pphud25ej4knpt3dzet6ihhoi",
+  "Issue Number": "120",
+  "Client": {
+    "Name": "Digital Earth Pacific Water Observatins from Space (WOfS)",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/dep-wofs/",
+    "Social Media": "https://registry.opendata.aws/dep-wofs/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Water Observations from Space (WOfS) beta version product for Water Observations from Space (WOfS) is an annual summary of the temporal and spatial extent of surface water over landscapes. In essence, this highlights where water is usually or where it is rarely. The results are visualised to compare points in time spanning over a year, a season or multiple years. The dataset extends back historically to 2013.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Water Observations from Space (WOfS) beta version product for Water Observations from Space (WOfS) is an annual summary of the temporal and spatial extent of surface water over landscapes. In essence, this highlights where water is usually or where it is rarely. The results are visualised to compare points in time spanning over a year, a season or multiple years. The dataset extends back historically to 2013.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We are an experienced team, we have applied for LDN with you. It turns out that our own technical solution meets the requirements of FIL+. The Filecoin official website provides open source codes for many tools. We integrated some data processing and DC tool codes, combined with AI technology, and then developed our own data processing system.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://dep-public-data/\naws s3 cp --no-sign-request s3://dep-public-data/dep_ls_wofl/ ./ --recursive\nhttps://digitalearthpacific.org/#/applications\nhttps://www.spc.int/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03312989 Hong Kong  \nf01926635  Sichuan  \nf01999119  Sichuan  \nf03284098 Hong Kong  \nf03333933 Taizhou, Zhejiang  \nf02370792 Dongguan, Guangdong\nf03493287   Hong Kong  \nf03378086   Hong Kong  \nf02869125 France \nf02916974 United States \n",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-02-27 10:51:34.290229542 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-02-27 10:51:34.290225073 UTC",
+    "Active Request ID": "13a8b8ae-dc24-433b-a828-ae09ced69877",
+    "On Chain Address": "f1kdu4jykgako2t6pphud25ej4knpt3dzet6ihhoi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "13a8b8ae-dc24-433b-a828-ae09ced69877",
+      "Request Type": "First",
+      "Created At": "2025-02-27 10:48:52.947283731 UTC",
+      "Updated At": "2025-02-27 10:48:52.947284438 UTC",
+      "Active": false,
+      "Allocation Amount": "256 TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-02-27 10:51:31.190000000 UTC",
+          "Message CID": "bafy2bzacecrwcuzrm53myrclehdo2rsm3dnv2okupjuxnh222m3p6br6ctf4q"
+        }
+      ]
+    }
+  ]
+}
