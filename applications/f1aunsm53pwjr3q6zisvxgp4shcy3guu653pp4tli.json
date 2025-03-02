@@ -3,7 +3,7 @@
   "ID": "f1aunsm53pwjr3q6zisvxgp4shcy3guu653pp4tli",
   "Issue Number": "125",
   "Client": {
-    "Name": "Mapzen, a Linux Foundation project",
+    "Name": "Mapzen",
     "Region": "United States",
     "Industry": "Life Science / Healthcare",
     "Website": "https://registry.opendata.aws/terrain-tiles/",
@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe, North America",
     "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server, Cloud storage (i.e. S3)",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03253403 Shenzhen\nf03378086 HK\nf03493287  HK\nf02869125 France\nf03473271   China\nf03363420   China\nf03328971 Zhejiang\nf02370792 Guangdong\nf03358608  HK\nf01996719   China",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf03253403 Shenzhen\nf03378086 HK\nf03493287  HK\nf03473271   China\nf03363420   China\nf03328971 Zhejiang\nf02370792 Guangdong\nf03358608  HK\nf01996719   China",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
