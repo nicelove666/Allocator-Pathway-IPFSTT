@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1aunsm53pwjr3q6zisvxgp4shcy3guu653pp4tli",
+  "Issue Number": "125",
+  "Client": {
+    "Name": "Mapzen",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/terrain-tiles/",
+    "Social Media": "https://registry.opendata.aws/terrain-tiles/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "A global dataset providing bare-earth terrain heights, tiled for easy usage and provided on S3.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Terrain Tiles includes data such as agriculture\\disaster response\\ earth observation\\ elevation\\ geospatial. It is an AWS dataset based on the environment.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We are very familiar with the Filecoin network. We have developed software, have mature data processing capabilities, and have processed a lot of data.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/terrain-tiles/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe, North America",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf03253403 Shenzhen\nf03378086 HK\nf03493287  HK\nf03473271   China\nf03363420   China\nf03328971 Zhejiang\nf02370792 Guangdong\nf03358608  HK\nf01996719   China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-02 13:07:49.870941281 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-03-02 13:07:49.870937897 UTC",
+    "Active Request ID": "adc78f30-7565-4370-90e2-4dadf04a8820",
+    "On Chain Address": "f1aunsm53pwjr3q6zisvxgp4shcy3guu653pp4tli",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "adc78f30-7565-4370-90e2-4dadf04a8820",
+      "Request Type": "First",
+      "Created At": "2025-03-02 13:04:46.814283412 UTC",
+      "Updated At": "2025-03-02 13:04:46.814284551 UTC",
+      "Active": false,
+      "Allocation Amount": "256 TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-03-02 13:07:46.530000000 UTC",
+          "Message CID": "bafy2bzacedl4vka3tyhj77jt5qsp5cxeq35b37cqvs5zrafre2t2yynned47g"
+        }
+      ]
+    }
+  ]
+}
