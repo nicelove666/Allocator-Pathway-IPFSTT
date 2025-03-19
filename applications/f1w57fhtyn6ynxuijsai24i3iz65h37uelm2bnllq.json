@@ -16,8 +16,8 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Medical ImageNet (Stanford Medical Image Dataset)​\n​Scale: Contains 0.5 PB of clinical radiology data （High-speed growth）, covering more than 1 billion images (such as X-rays, CT, MRI, etc.), and associates genomic data, patient electronic medical records and other multimodal information4\n\n​Features: Constructed by multi-institutional cooperation, data de-identification, and compliant with privacy regulations.\n​Supports machine learning research, covering 4.5 million clinical studies, including 1,000 ICU chest radiographs, 831 bone tumor X-rays and other high-value data4\n\n​Application scenarios: medical image analysis, disease prediction model development, multi-omics joint research.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.midrc.org/\nhttps://imaging-hub.data-commons.org/Explorer",
+    "How do you plan to prepare the dataset": "yes, we use Python to write scripts to crawl data sets, and then use the data tools we developed to process the data.we can support spark\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.midrc.org/\nhttps://imaging-hub.data-commons.org/Explorer\n\nazcopy copy \"https://aimistanforddatasets01.blob.core.windows.net/chexpertplus?sv=2019-02-02&sr=c&sig=9jyFGcEWDEZkiHm9DMJfixt5i%2FmfBrhgIsb9RtLMTWs%3D&st=2025-03-18T11%3A33%3A13Z&se=2025-04-17T11%3A38%3A13Z&sp=rl\" /data --recursive\n\n",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Monthly",
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
@@ -29,8 +29,8 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "7PiB",
-    "Single Size Dataset": "700Tib",
+    "Total Requested Amount": "5.5PiB",
+    "Single Size Dataset": "550Tib",
     "Replicas": 10,
     "Weekly Allocation": "1PiB"
   },
