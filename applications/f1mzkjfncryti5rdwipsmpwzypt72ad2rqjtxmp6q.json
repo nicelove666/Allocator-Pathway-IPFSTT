@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1mzkjfncryti5rdwipsmpwzypt72ad2rqjtxmp6q",
+  "Issue Number": "140",
+  "Client": {
+    "Name": "EMPIAR",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.ebi.ac.uk/empiar/about/",
+    "Social Media": "https://www.ebi.ac.uk/empiar/about/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "EMPIAR, the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB). EMPIAR also accommodates 3D datasets obtained with volume EM techniques and soft and hard X-ray tomography. More ...\nAs of 2025-03-19, EMPIAR contains 2062 entries, taking up 5.28 PB of storage.\n\nEMPIAR (https://empiar.org/ or https://www.ebi.ac.uk/empiar), the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB). EMPIAR also accommodates 3D datasets obtained with volume EM techniques and soft and hard X-ray tomography. All data archived in EMPIAR can be re-used freely without any conditions or restrictions (\"CC0\" license model). Detailed information about EMPIAR policies and procedures is available.\nThe purpose of EMPIAR is to provide easy access to state-of-the-art data to facilitate methods development, validation and re-use, e.g., for Machine Learning applications. EMPIAR data is also used for training and teaching purposes and as part of community challenges.\nEMPIAR owes much to input from the EM community, notably at two workshops organised by EMBL-EBI and the Open Microscopy Environment (OME) - \"Data Management Challenges in Three-dimensional EM\" (Patwardhan et al., Nat. Struct. Mol. Biol. 19, 1203-1207 (2012)) and \"A 3D Cellular Context for the Macromolecular World\" (Patwardhan et al., Nat. Struct. Mol. Biol. 21, 841-845 (2014)). We are developing a timeline with highlights of EMPIAR's history.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "As of 2025-03-19, EMPIAR contains 2062 entries, taking up 5.28 PB of storage.\n\n2024-2025-03-19，EMPIAR contains 419 entries, taking up 1.1 PB of storage.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.ebi.ac.uk/empiar/EMPIAR-11928/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12170/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12252/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12534/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12541/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12565/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12185/\nhttps://www.ebi.ac.uk/empiar/EMPIAR-12259/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01996719  Beijing\nf03408862 Hk\nf03312989 HK\nf03230423 Malaysia\nf03281237 Malaysia\nf03252730 HK\nf03513598 Malaysia\nf03513633 Malaysia\nf03358608 HK\nf09693 Sichuan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6.5PiB",
+    "Single Size Dataset": "650TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-20 07:52:03.860030271 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-03-20 07:52:03.860027042 UTC",
+    "Active Request ID": "0251fb45-b889-4646-9dd2-ce67a0a9199b",
+    "On Chain Address": "f1mzkjfncryti5rdwipsmpwzypt72ad2rqjtxmp6q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "0251fb45-b889-4646-9dd2-ce67a0a9199b",
+      "Request Type": "First",
+      "Created At": "2025-03-20 07:48:52.665832188 UTC",
+      "Updated At": "2025-03-20 07:48:52.665833013 UTC",
+      "Active": false,
+      "Allocation Amount": "256 TiB",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-03-20 07:52:00.223000000 UTC",
+          "Message CID": "bafy2bzacecbdpub4ovbtm7dsnlpv2d7dipryuvuo26vcei2hro2xzu4ok4f7w"
+        }
+      ]
+    }
+  ]
+}
