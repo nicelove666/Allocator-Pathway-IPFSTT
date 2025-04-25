@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1w6lsxvs27jyf6vqqb4gom57a2oqgyq35y6wqwma",
+  "Issue Number": "150",
+  "Client": {
+    "Name": "USGS 3DEP",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/usgs-lidar/",
+    "Social Media": "https://registry.opendata.aws/usgs-lidar/；https://github.com/hobuinc/usgs-lidar",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The goal of the USGS 3D Elevation Program (3DEP) is to collect elevation data in the form of light detection and ranging (LiDAR) data over the conterminous United States, Hawaii, and the U.S. territories, with data acquired over an 8-year period. This dataset provides two realizations of the 3DEP point cloud data. The first resource is a public access organization provided in Entwine Point Tiles format, which a lossless, full-density, streamable octree based on LASzip (LAZ) encoding. The second resource is a Requester Pays of the original, Raw LAZ (Compressed LAS) 1.4 3DEP format, and more complete in coverage, as sources with incomplete or missing CRS, will not have an ETP tile generated. Resource names in both buckets correspond to the USGS project names.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The goal of the USGS 3D Elevation Program (3DEP) is to collect elevation data in the form of light detection and ranging (LiDAR) data over the conterminous United States, Hawaii, and the U.S. territories, with data acquired over an 8-year period. This dataset provides two realizations of the 3DEP point cloud data. The first resource is a public access organization provided in Entwine Point Tiles format, which a lossless, full-density, streamable octree based on LASzip (LAZ) encoding. The second resource is a Requester Pays of the original, Raw LAZ (Compressed LAS) 1.4 3DEP format, and more complete in coverage, as sources with incomplete or missing CRS, will not have an ETP tile generated. Resource names in both buckets correspond to the USGS project names.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Our technical solution uses a similar indexing method. In the usgs-lidar data set, we package the data and generate an index according to the directory structure of the original data set. Because the individual files of the data set are very small (mostly between 100Kib-1Mib), it is not suitable for single files. Indexing, the number of indexes will be very large and difficult to query and use, so we cut, package and create indexes according to the original directory according to the actual structure of the data set. The corresponding piece-cid and its corresponding specific directory name and location information will be recorded in the index file for retrieval",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Command line for data download： aws s3 ls --no-sign-request s3://usgs-lidar-public/AK_DeltaJunction_1_2021/ept-data/\nhttps://aws.amazon.com/cn/blogs/machine-learning/extracting-buildings-and-roads-from-aws-open-data-using-amazon-sagemaker/\nhttps://github.com/hobuinc/usgs-lidar/tree/master/lambda\nhttps://usgs.entwine.io/\nhttps://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities\n\n",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf02916974 United States\nf02952530 Thailand\nf03233356 South Korea\nf02826126 HK\nf02827880 HK\nf02827288 ShangHai\nf02827045 ShangHai\nf03519438 HK\nf09693  SiChuang",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4.5PiB",
+    "Single Size Dataset": "450TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-25 04:24:04.412688372 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-04-25 04:24:04.412684885 UTC",
+    "Active Request ID": "82222149-8fb6-4d67-a818-66089d6f8b3f",
+    "On Chain Address": "f1w6lsxvs27jyf6vqqb4gom57a2oqgyq35y6wqwma",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "82222149-8fb6-4d67-a818-66089d6f8b3f",
+      "Request Type": "First",
+      "Created At": "2025-04-25 04:22:23.979159441 UTC",
+      "Updated At": "2025-04-25 04:22:23.979160525 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-04-25 04:24:01.566000000 UTC",
+          "Message CID": "bafy2bzacectcvlhuegaamlo5ucxyyaiyorx36f7v3eh6qyj4uwywwsawsiios"
+        }
+      ]
+    }
+  ]
+}
