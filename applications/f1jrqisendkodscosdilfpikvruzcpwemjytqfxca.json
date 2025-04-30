@@ -18,7 +18,7 @@
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "https://registry.opendata.aws/kyfromabove/： 334.8T\nhttps://www.openstreetmap.org/#map=4/38.01/-95.84：120TiB\nhttps://registry.opendata.aws/nci-imaging-data-commons/ 97.2T \nhttps://registry.opendata.aws/broad-gnomad/   69.3 TiB",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/kyfromabove/： 334.8T\nhttps://www.openstreetmap.org/#map=4/38.01/-95.84：120TiB\nhttps://registry.opendata.aws/nci-imaging-data-commons/ 97.2T \nhttps://registry.opendata.aws/broad-gnomad/   69.3 TiB",
-    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe",
