@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1vc4dbz2f6znl4qitdolaq3mcztnh5bcc3hng5na",
+  "Issue Number": "160",
+  "Client": {
+    "Name": "Shenzhen Derier Technology Co., Ltd.",
+    "Region": "China",
+    "Industry": "Arts & Recreation",
+    "Website": "https://www.derier.com.cn/",
+    "Social Media": "https://www.derier.com.cn/",
+    "Social Media Type": "WeChat",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Shenzhen DERIER Technology Co., Ltd. was established in 2001. We cooperate with internationally renowned jewelry masters such as Evert de Graeve, Pascal Sert, and Lars Heinz. It is a global jewelry high-end brand focusing on jewelry research and development, design, production and sales. 1000+ people, 30+ stores. Since 2010, DERIER has been included in the \"Top 500 Most Valuable Brands\" released by the World Brand Lab for three consecutive years, with a brand value of 2.362 billion.\nIn 2002, DERIER became a member of the standing director unit of China Gemstone Association;\nIn March 2004, DERIER won the honorary title of \"Famous Brand in China's Jewelry Industry\" issued by the State Administration for Industry and Commerce and China Gemstone Association.\nIn May 2004, 30 outstanding managers including brand founder Liu Xudong and Li Zekai won the \"World Manager Achievement Award Future Leader\", becoming the only one in the industry to receive this honor;\nIn 2005, DERIER became the only designated jeweler for the New Silk Road Model Contest; currently, DERIER has opened high-end stores in 31 cities in China, including Hangzhou, Ningbo, Chengdu, Chongqing, Wuhan, Shanghai, and Lanzhou, serving millions of people.\nIn 2006, Liu Xudong, chairman of the group, was elected as the vice president of the Sichuan International Chamber of Commerce. In 2007, he became the vice president of the Sichuan Jewelry Association. In 2008, he became the vice president of the Chengdu Jewelry Chamber of Commerce.\nIn 2009, the DERIER jewelry business team was invited to participate in the Basel International Jewelry Show\nIn 2010, the jewelry business team of DERIER was invited as the VIP guest of Japan's largest Tokyo International Jewelry Show to participate in the exhibition and as the ribbon-cutting guest.\nIn 2011, DERIER jewelry was awarded the 500 most valuable brands in China, with a brand value of 1.925 billion\nIn 2011, the DERIER jewelry business team went to Las Vegas, USA to participate in the International Jewelry Exhibition\nIn 2012, the DERIER jewelry business team participated in the Gold Jewelry Exhibition in Vicenza, Italy\nIn 2012, DERIER jewelry was awarded the 500 most valuable brands in China, with a brand value of 2.362 billion\nIn 2014, we established DERIER COLLEGE, focusing on cultivating and exporting jewelry industry talents for the world.\nIn 2015, DERIER Jewelry won the honorary title of \"Excellent Enterprise in China's Jewelry and Jade Jewelry Industry in 2015\".\nIn 2015, the DERIER jewelry business team went to Las Vegas, USA to participate in the International Jewelry Exhibition\nIn 2017, ABAS awarded DERIER the honor of \"Top Ten Leading Brands in China (Industry)\"\nIn 2018, we were invited to participate in the Munich Jewelry Show in Germany\nIn 2020, Liu Xudong, chairman of the group, was re-elected as the \"Executive Director\" of China Jewelry and Jade Jewelry Industry Association\nIn 2022, it will become the vice-chairman unit of Guangdong Jewelry Chamber of Commerce, and Liu Xudong, chairman of the group, will be elected as the vice-chairman of Shenzhen Jewelry Chamber of Commerce\n\nAs a well-known jewelry brand in the world, our jewelry has cooperated with many stars, such as. Wu Jinyan endorsed our \"Bright Love\" series. Wang Likun endorsed our \"Bright Love X Ray\" series, Chen Qiaoen endorsed our \"Bright Love X Ray\" series, Guo Caijie endorsed our \"Star Series\", DERIER has sponsored the movie \"Follow Your Heart\" and the TV series \"The Time of You and Me\"。",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "As a world-renowned jewelry brand established for more than 20 years, we have many precious design manuscripts, jewelry production, transportation, maintenance, sales and other data. At the same time, we also have a lot of data about jewelry publicity, promotion, explanation, etc. We established the DERIER Business School, and we have accumulated a lot of jewelry courseware, and we also hope to store this part of the data on the Filecoin network.\n\nTherefore, these data are roughly:\n\nPromotional pictures and live videos of DERIER jewelry products\nPromotional pictures, videos, customer pre-sales and after-sales data of DERIER physical store\nDERIER enterprise data, for example, DERIER's PPT, promotional articles, videos, team building content\nDERIER designer's precious design draft, factory production environment, pictures\nHonors received by DERIER, for example, DERIER has continuously won the award of 500 most valuable brands for many years\nPictures and videos of celebrities and models shooting, promoting and endorsement for DERIER\nData on events organized and attended by DERIER\nDerier Business School courseware data\nDERIER sponsored the movie \"Like a Shadow\" and the TV series \"My Time with You\", and the data in this part is very huge. dates.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Yes, I'd love to share with you:\n\n1. Promotional pictures and videos of DERIER jewelry products:\nhttps://drive.google.com/drive/folders/1jk1ymtNcYRhwRK-_yKe67j1f1Bw13T2o\nhttps://drive.google.com/drive/folders/1BMVSL0iOseVxbzUDEUT6zW2Z2_3q_Zhi\nhttps://drive.google.com/drive/folders/1NsPWVUdtTEHyP1-iErS0DzWDNvjOGoJz\n\n2. Honors received by DERIER: https://drive.google.com/drive/folders/1iwZmLFcD8nCqazwHGfWuI59x3KFr0oOq\n\n3. DERIER designer's design draft and production pictures:\nhttps://drive.google.com/drive/folders/1qtHHl4ffvMKxEGymFMO4fbHCbnFJ3gjn\n\n3. Celebrities and models endorse DERIER:\nhttps://drive.google.com/drive/folders/16Xq2stfWDQgmJaQpP0w8iidNW6MDLNUP\nhttps://drive.google.com/drive/folders/1kAcDT0X_sDFneEnzuU4XLyjtUX9aI31B\n\n5. Propaganda articles of DERIER:\nhttps://drive.google.com/drive/folders/1qD1CLfvUz6huXXNL_kGwHk56VPHwHw4K\n\n6. Data from DERIER Business School:\nhttps://drive.google.com/drive/folders/1iRLzp8rmXIUyM4eUvyyG0ZKkgksnLa-R?usp=sharing\n\n7. Real picture of DERIER store:\nhttps://drive.google.com/drive/folders/1OLaC7-d4gTRyLe4Do2mbZwlrMBbW8wmV\n\n8. Activities held by DERIER:\nhttps://drive.google.com/drive/folders/1F6PpaeEwrmLzQGTTEMW3LKPfb0oep14m\n\n9、TV plays and movies sponsored by DERIER:\nhttps://drive.google.com/drive/folders/1o0HX9uZOD1wRYaVOvHumBs0KWlXbjKJK",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, South America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "wait",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1.5PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-04-28 10:00:34.224433857 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1vc4dbz2f6znl4qitdolaq3mcztnh5bcc3hng5na",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
