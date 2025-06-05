@@ -35,12 +35,12 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "TotalDatacapReached",
     "Validated At": "2025-06-01 03:23:14.497215844 UTC",
     "Validated By": "nicelove666",
-    "Active": true,
-    "Updated At": "2025-06-01 03:23:14.497212361 UTC",
-    "Active Request ID": "ba11bf21-3b30-45e8-ac5f-bf74c7edbfc4",
+    "Active": false,
+    "Updated At": "2025-06-05 03:00:49.275798346 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1w6lsxvs27jyf6vqqb4gom57a2oqgyq35y6wqwma",
     "Multisig Address": "false",
     "edited": false
