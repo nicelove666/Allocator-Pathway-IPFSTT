@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1hf5zodlxgvf4dz4laujce6xxmpalusfxuf43uoi",
+  "Issue Number": "186",
+  "Client": {
+    "Name": "iNaturalist",
+    "Region": "United States",
+    "Industry": "Education & Training",
+    "Website": "https://www.inaturalist.org/",
+    "Social Media": "https://www.inaturalist.org/;https://registry.opendata.aws/inaturalist-open-data/;https://github.com/inaturalist/inaturalist-open-data;",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "iNaturalist is a community science platform where participants record observations representing encounters with individual organisms. Each observation can have one or more photos as evidence of the encounter. All observations are associated with a single user who recorded the observation. Much of the activity on the platform relates to identifying the single taxon that the organism represents. In the cartoon below, an observer creates an observation with three associated photos representing a specific butterfly taxon.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "iNaturalist is a community science platform where participants record observations representing encounters with individual organisms. Each observation can have one or more photos as evidence of the encounter. All observations are associated with a single user who recorded the observation. Much of the activity on the platform relates to identifying the single taxon that the organism represents. In the cartoon below, an observer creates an observation with three associated photos representing a specific butterfly taxon.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "https://github.com/inaturalist/inaturalist-open-data\n\nDownload the data as suggested by the website: - inaturalist-open-data\n- photos/\n- PHOTO_ID/\n- original.jpg\n- large.jpg\n- ...\n- metadata/\n- inaturalist-open-data-latest.tar.gz\n- inaturalist-open-data-20241127.tar.gz\n- ...\n- observations.csv.gz\n- observers.csv.gz\n- photos.csv.gz\n- taxa.csv.gz\n\n\nUse photo_id and extension to get the corresponding photo file from tens of millions of files in the iNaturalist open dataset. The file path in the S3 bucket is s3://inaturalist-open-data/photos/[photo_id]/medium.[extension], and the file URL is https://inaturalist-open-data.s3.amazonaws.com/photos/[photo_id]/medium.[extension]",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.inaturalist.org/\nhttps://github.com/inaturalist/inaturalist-open-data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Africa, Europe",
+    "How will you be distributing your data to storage providers": "IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03368008 Vietnam\nf03542777 Vietnam\nf03603117 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-07-01 02:11:15.653973096 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1hf5zodlxgvf4dz4laujce6xxmpalusfxuf43uoi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
