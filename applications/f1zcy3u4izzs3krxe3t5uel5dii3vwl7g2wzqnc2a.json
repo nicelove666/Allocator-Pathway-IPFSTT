@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1zcy3u4izzs3krxe3t5uel5dii3vwl7g2wzqnc2a",
+  "Issue Number": "190",
+  "Client": {
+    "Name": "laion",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://laion.ai/blog/laion-5b/ https://github.com/LAION-AI/laion-3d https://huggingface.co/datasets/laion/laion-high-resolution",
+    "Social Media": "https://laion.ai/blog/laion-5b/ https://laion.ai/blog/laion-400-open-dataset/ https://laion.ai/blog/large-openclip/ https://laion.ai/blog/laion-aesthetics/ https://github.com/LAION-AI/laion-3d https://huggingface.co/datasets/laion/laion-high-resolution",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "LAION, as a non-profit organization, provides datasets, tools and models to liberate machine learning research. By doing so, we encourage open public education and a more environment-friendly use of resources by reusing existing datasets and models.\n\nWe present a dataset of 5,85 billion CLIP-filtered image-text pairs, 14x bigger than LAION-400M, previously the biggest openly accessible image-text dataset in the world - see also our NeurIPS2022 paper",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Laion was initiated with the Laion5B project that successfully produced a 5B (image, text) pairs dataset by processing commoncrawl and filtering with clip. That method proved that it’s cheap to collect large scale dataset from the web using models like clip that give the similarity between items from 2 modalities.\n\nMany models have been trained on laion400m proving the value of this method, with in particular openclip that reproduced the same results that the initial openai clip.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We will handle different projects differently according to the file data type in the project, in order to facilitate data search and retrieval. LAION-400M and LAION5B will be packaged according to the order of the image names in the dataset, and each car file will contain a list of image names. For audio datasets, they will be packaged and cut according to the upload directory to which the audio belongs, and the index file will record the corresponding directory location information.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "[30k samples from thingiverse](https://zenodo.org/record/1098527) (3d printing STL model files)\n[Fusion360Gallery](https://github.com/AutodeskAILab/Fusion360GalleryDataset)\n[Amazon Berkeley Objects (ABO)](https://amazon-berkeley-objects.s3.amazonaws.com/index.html#download), a dataset of Amazon products with metadata, catalog images, and 3D models.\n[Large Geometric Models Archive](https://www.cc.gatech.edu/projects/large_models/about.html)\n[FaceScape](https://facescape.nju.edu.cn/Page_Download/), a large-scale detailed 3D face dataset (application required).\n[Redwood 3DScan](https://github.com/isl-org/redwood-3dscan), more than ten thousand 3D scans of real objects.\n[Human3.6M](http://vision.imar.ro/human3.6m/description.php), 3.6 million 3D human poses and corresponding images.\n[Semantic3D](https://www.semantic3d.net/), a large labelled 3D point cloud data set of natural scenes with over 4 billion points in total.\n[SceneNN / ObjectNN](https://github.com/hkust-vgd/scenenn), an RGB-D dataset with more than 100 indoor scenes along with RGB-D objects extracted and split into 20 categories.\n[3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset), a dataset of 3D furnished rooms with layouts and semantics.\n[3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future), a dataset of 3D furniture shapes with textures.\n[ABC](https://deep-geometry.github.io/abc-dataset/0), a collection of one million Computer-Aided Design (CAD) models\n[Structured3D](https://structured3d-dataset.org/#download), a large-scale photo-realistic dataset containing 3.5K house designs with a variety of ground truth 3D structure annotations.\n[ShapeNet](https://shapenet.org/), a richly-annotated, large-scale dataset of 3D shapes.\n[FixIt!](https://drive.google.com/drive/folders/1h9kMRilQcjbD4Tyt58pmMUEnMIicNATi), a dataset that contains about 5k poorly-designed 3D physical objects paired with choices to fix them.\n[ModelNet](http://modelnet.cs.princeton.edu/#), a comprehensive clean collection of 3D CAD models for objects.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03601451 Hong Kong\nf03609158 Hong Kong\nf03619150 shenzhen\nf02826762 Hong Kong\nf02827135 Hong Kong\nf02827010 Hong Kong\nf02825281 Xinjiang\nf03619143 HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-09 08:39:12.989707460 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-07-09 08:39:12.989703524 UTC",
+    "Active Request ID": "c19d2f19-de6c-4097-9e3d-f82c4995a4da",
+    "On Chain Address": "f1zcy3u4izzs3krxe3t5uel5dii3vwl7g2wzqnc2a",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "c19d2f19-de6c-4097-9e3d-f82c4995a4da",
+      "Request Type": "First",
+      "Created At": "2025-07-09 08:36:29.986696864 UTC",
+      "Updated At": "2025-07-09 08:36:29.986697723 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-07-09 08:39:09.800000000 UTC",
+          "Message CID": "bafy2bzacedwgz6gnzpkc7uzthmy45cndssvwwnjdj75ow2r3vidkdi7ejeou6"
+        }
+      ]
+    }
+  ]
+}
