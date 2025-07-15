@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1k4ebygepenw6zr6gb7u77w3eaaed2xb42h55sfy",
+  "Issue Number": "194",
+  "Client": {
+    "Name": "Global Fishing Watch",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://globalfishingwatch.org/",
+    "Social Media": "https://x.com/GlobalFishWatch",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "DataDrill is a forward-thinking data engineering team dedicated to building scalable, high-efficiency solutions for managing and preserving large datasets. Originating with a focus on enterprise analytics and system integration, the team has evolved to embrace decentralized storage technologies. Now, with a growing interest in the Filecoin ecosystem, DataDrill is leveraging its technical expertise to securely onboard and maintain valuable datasets on the network—supporting long-term accessibility and resilience in the era of distributed data.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Global Fishing Watch dataset provides open-access, high-resolution data on global fishing activity, derived from satellite tracking and vessel monitoring systems. It offers insights into fishing effort, vessel behavior, and ocean use patterns, helping researchers, policymakers, and conservationists promote sustainable fisheries and marine transparency. Storing this dataset on Filecoin enhances its permanence and resilience, ensuring that vital information on ocean activity remains accessible for environmental monitoring, regulatory enforcement, and scientific research worldwide.",
+    "Where was the data currently stored in this dataset sourced from": "Google Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://globalfishingwatch.org/data-download/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03513598 MYS\nf03281237 MYS\nf03513633 MYS\nf03230423 MYS\nf02920450 VN\nf03526821 VN\nf03605143 USA\nf03604724 JP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "7 PiB",
+    "Single Size Dataset": "850 TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "700 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-15 14:03:08.547720207 UTC",
+    "Validated By": "nicelove666",
+    "Active": true,
+    "Updated At": "2025-07-15 14:03:08.547716912 UTC",
+    "Active Request ID": "1630ff8c-8dfa-4040-b42d-0c76265c4975",
+    "On Chain Address": "f1k4ebygepenw6zr6gb7u77w3eaaed2xb42h55sfy",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "1630ff8c-8dfa-4040-b42d-0c76265c4975",
+      "Request Type": "First",
+      "Created At": "2025-07-15 14:00:11.827453241 UTC",
+      "Updated At": "2025-07-15 14:00:11.827454229 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "nicelove666",
+          "Signing Address": "f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq",
+          "Created At": "2025-07-15 14:03:05.417000000 UTC",
+          "Message CID": "bafy2bzacec6sgu2ih4xf3qzxtjmhohoknd54awpnwcb3jngqkqqj2qwlxnjkk"
+        }
+      ]
+    }
+  ]
+}
