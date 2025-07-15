@@ -35,7 +35,7 @@
     "Weekly Allocation": "700 TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Submitted",
     "Validated At": "2025-07-15 11:19:56.330348586 UTC",
     "Validated By": "nicelove666",
     "Active": true,
@@ -43,17 +43,7 @@
     "Active Request ID": "85090261-6e8c-46e7-9367-8543dfef1589",
     "On Chain Address": "f1k4ebygepenw6zr6gb7u77w3eaaed2xb42h55sfy",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "85090261-6e8c-46e7-9367-8543dfef1589",
-      "Request Type": "First",
-      "Created At": "2025-07-15 11:19:56.330355423 UTC",
-      "Updated At": "2025-07-15 11:19:56.330357434 UTC",
-      "Active": true,
-      "Allocation Amount": "281474976710656 B",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
