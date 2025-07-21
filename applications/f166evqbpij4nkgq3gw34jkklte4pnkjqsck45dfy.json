@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f166evqbpij4nkgq3gw34jkklte4pnkjqsck45dfy",
   "Issue Number": "183",
+  "Client Contract Address": "f410fxuffkq6zbptdnh65wkurc2rdcznmwlez5eiz6dq",
   "Client": {
     "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-07-21 01:12:27.193631354 UTC",
+    "Validated By": "nicelove666",
     "Active": true,
-    "Updated At": "2025-06-30 11:22:04.186452437 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-07-21 01:12:27.193635911 UTC",
+    "Active Request ID": "a63f4f3f-6c47-4b1e-b600-6dc6ce671a37",
     "On Chain Address": "f166evqbpij4nkgq3gw34jkklte4pnkjqsck45dfy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "a63f4f3f-6c47-4b1e-b600-6dc6ce671a37",
+      "Request Type": "First",
+      "Created At": "2025-07-21 01:12:27.193637803 UTC",
+      "Updated At": "2025-07-21 01:12:27.193638638 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
