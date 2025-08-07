@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1dskufcj6kxyeretgkkdlurwpbiub4bvt433uyga",
+  "Issue Number": "208",
+  "Client": {
+    "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://data.openei.org/about；https://data.openei.org/data_lakes",
+    "Social Media": "https://data.openei.org/about；https://data.openei.org/data_lakes",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Data released under the Department of Energy's (DOE) Open Energy Data Initiative (OEDI). The Open Energy Data Initiative aims to improve and automate access of high-value energy data sets across the U.S. Department of Energy’s programs, offices, and national laboratories. OEDI aims to make data actionable and discoverable by researchers and industry to accelerate analysis and advance innovation.\n\nOEDI's mission is to provide free, universal access to all relevant data generated from projects funded by DOE and supporting partners, to protect DOE's investment in research and development through proper data management and the open transfer of knowledge, to fuel innovation, reduce duplication of effort, and promote scientific discovery in the energy sector.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "OEDI contains data from all aspects of energy research, development, and operations, including data on:\n\nenergy from waves, currents and tides\ngeothermal energy\nsolar energy\nwind energy\ndevice engineering\nperformance and testing\neconomic analysis",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Website has recommended data processing methods, but we have developed a system specifically for processing AWS datasets.\nAfter downloading, we cut the data into smaller than 32GB sectors and then send the order.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.openei.org/data_lakes\n\nhttps://data.openei.org/about\naws s3 ls --no-sign-request s3://nrel-pds-nsrdb/\n\nhttps://data.openei.org/submissions/8458\nhttps://data.openei.org/submissions/8457\nhttps://data.openei.org/submissions/8456\nhttps://data.openei.org/submissions/8455\nhttps://data.openei.org/submissions/8454\nhttps://data.openei.org/submissions/8452\nhttps://data.openei.org/submissions/8450\nhttps://data.openei.org/submissions/8447\nhttps://data.openei.org/submissions/8445\nhttps://data.openei.org/submissions/8444\nhttps://data.openei.org/submissions/8429\nhttps://data.openei.org/submissions/8428\nhttps://data.openei.org/submissions/8427\nhttps://data.openei.org/submissions/8425\nhttps://data.openei.org/submissions/8426\nhttps://data.openei.org/submissions/8424\nhttps://data.openei.org/submissions/8423\nhttps://data.openei.org/submissions/8422",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, Europe, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02874347 United States\nf02930717  France\nf03233356 South Korea\nf03623232 HongKong\nf03610683 HongKong\nf03630883 HongKong\nf02869125 France\nf02916974 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-07 04:27:39.175308231 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1dskufcj6kxyeretgkkdlurwpbiub4bvt433uyga",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
