@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-08-11 02:00:37.666829952 UTC",
     "Validated By": "nicelove666",
     "Active": true,
