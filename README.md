@@ -1,14 +1,57 @@
 # Filecoin Plus DataCap Allocator - Client Applications
 
-Welcome to the GitHub repository dedicated to managing the Lifecycle Data Notations (LDN) Applications for a specific Filecoin Plus DataCap allocator team. This repository serves as a public ledger for DataCap allocation requests and tracking, facilitating transparency and efficiency in the process.
+Welcome to the IPFSTT  Allocator GitHub repository dedicated to managing the Lifecycle Data Notations (LDN) Applications for a specific Filecoin Plus DataCap allocator team. This repository serves as a public ledger for DataCap allocation requests and tracking, facilitating transparency and efficiency in the process.
 
 ## Overview
 
-Filecoin Plus (Fil+) enhances the utility of Filecoin by not just storing data, but also verifying the usefulness of the data being stored. DataCap is allocated to clients based on their storage needs and the value their data brings to the Filecoin network. Our team, operating under a shared multisig wallet, acts as an allocator of DataCap, assessing and verifying client requests.
+Organization Name: Huineng Network
 
-## How It Works
+Notary Allocator Pathway Name : IPFSTT Allocator
 
-Instead of a traditional code repository, this GitHub repo functions as a structured ledger to handle DataCap requests through Client Applications. Each application's lifecycle, from request to allocation, is publicly documented here.
+Huineng Network is a shared and collaborative platform that gathers global enthusiasts of distributed storage. Our core technical team consists of blockchain experts who are dedicated to innovation and research in the fields of distributed storage, metaverse storage, and cloud storage. Our employees are located in mainland China, Hong Kong, Singapore, Malaysia, and other regions.
+
+As a technology-driven company, we are committed to breaking the limitations of traditional storage models. Through the application of distributed storage technology, we strive to build a metaverse storage network that provides users with a borderless, secure, and trusted storage space. Our goal is to offer customers secure, efficient, and reliable storage solutions.
+
+### Allocator Information
+
+Organization Name: Huineng Network
+
+Allocator Name ：IPFSTT Allocator
+
+Slack：Doris
+
+GitHub: nicelove666
+
+Email: doris@ipfstt.com
+
+Organization On-Chain Address: f16hmuu3w247dkkhsrbbcbeqbugmpjbxpkrpcdatq
+
+On-chain Address for DC Allocation: f27au4b3z7a243fz43y55hqwfdrso6kcfdork7moa
+
+###  DataCap Allocation Strategy
+
+First Allocation: ≤256 TiB
+
+Second Allocation:≤512 TiB
+
+Third Allocation：≤1024 TiB
+
+Fourth Allocation：≤2048 TiB
+
+Fifth Allocation：≤2048 TiB
+
+The Max Allocation Cant’t Exceed 2048 TiB
+
+Minimum Replicas: 5 replicas required for data redundancy
+
+Maximum Replicas: 8 replicas required for data redundancy
+
+Single SP receives no more than 25% of DataCap per round
+
+Geographic distribution across multiple regions encouraged
+
+Supported regions include Greater China, Asia, Africa, North America, South America, Europe, and Australia
+
 
 ### Requesting DataCap
 
@@ -22,15 +65,34 @@ Instead of a traditional code repository, this GitHub repo functions as a struct
 
 ### Review and Allocation Process
 
-1. **Initial Review:** Once an issue is opened, our allocator team will conduct an initial review to ensure all necessary information is provided.
-2. **Discussion & Clarification:** The team may engage in discussions within the issue thread for clarifications or additional information.
-3. **Decision:** The allocator team will make a decision on the DataCap request. If approved, the process moves to the allocation phase.
+1. Reject redundant data. Client needs to submit a new public data set, and we will verify it in many ways.
 
-### Managing the Client Application Lifecycle
+2. Verification of data set size and reasonable total data application. Client needs to provide proof of data set size. If the client cannot provide it, we have developed a query tool. After the query, we will tell the client what the data set size is. The total amount requested = data set size x number of SPs.
+   
+3. Detailed technical solutions. We will focus on the data processing solution, how the data is processed, how it is cut, which part of the data is downloaded, and how the data matches the sector data. How do we verify. This includes asking the client and SP to provide index information.
+   
+4. Pay attention to who the client is, whether the data set has been applied for in other allocators, and whether the data set applied for by the client in other allocators is the same as the data set applied for in our allocator. In principle, we will reject such applications.
+   
+5.After the first round of approval to the client, we will download the sectors and review the data, and ask the them to explain how the data we downloaded matches the original data.
 
-- Each Client Application's lifecycle is tracked through a `.json` file in this repository, uniquely associated with the client's issue.
-- The `.json` file is created when an application is initially approved for allocation and is updated through pull requests as more DataCap is allocated or as the application status changes.
-- This structured approach ensures transparency and traceability for both clients and the allocator team.
+6.We will require SPs to be distributed in three continents. Although this is very difficult, we also strive to find SPs in other continents and provide assistance to clients.
+
+7. When we have objections to an application, we will ask the client to provide an ID card and more proof. If we have other communications with the client when handling the questions, we will synchronize these contents on GitHub or send them to the governance team's email.
+
+### Dispute Resolution Mechanism
+
+Response Time: 24 hours
+
+Action: Immediately halt allocations, file a dispute, and wait for both parties to submit evidence and for the dispute to be resolved.
+If the issue is serious, seek assistance from our official technical team to reclaim unused DataCap quotas.
+
+Immediately shut down LDN.
+
+Blacklist the client/SP from future allocations.
+
+If necessary, support video conferencing, phone calls, email, and Slack communication to resolve the issue.
+
+If necessary, we will escalate the issue to the governance team and await resolution.
 
 ## Code of Conduct
 
