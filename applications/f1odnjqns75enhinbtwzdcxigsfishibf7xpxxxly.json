@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1odnjqns75enhinbtwzdcxigsfishibf7xpxxxly",
+  "Issue Number": "188",
+  "Client": {
+    "Name": "test1",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "test1",
+    "Social Media": "test1",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "test1",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "test1",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "test1",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "test1",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f0123456",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1PiB",
+    "Single Size Dataset": "200TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "300TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-07-08 14:34:58.412208639 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1odnjqns75enhinbtwzdcxigsfishibf7xpxxxly",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
