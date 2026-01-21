@@ -29,13 +29,13 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "5PiB",
+    "Total Requested Amount": "7PiB",
     "Single Size Dataset": "1024TiB",
-    "Replicas": 5,
+    "Replicas": 7,
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-10-14 05:10:00.000000000 UTC",
     "Validated By": "nicelove666",
     "Active": true,
