@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1mvsuqvd3bce6cvlcbpelmkhcjx4rl5ly4tfo4la",
+  "Issue Number": "135",
+  "Client": {
+    "Name": "YouTube-8M Segments",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://research.google.com/youtube8m/download.html",
+    "Social Media": "https://research.google.com/youtube8m/download.html",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "YouTube-8M Segments was released in June 2019 with segment-level annotations. Human-verified labels on about 237K segments on 1000 classes are collected from the validation set of the YouTube-8M dataset. Each video will again come with time-localized frame-level features so classifier predictions can be made at segment-level granularity.\n\nYouTube-8M was updated in May 2018 to include higher-quality, more topical annotations, and to clean up the annotation vocabulary. A number of low-frequency or low-quality labels and associated videos were removed, resulting in a smaller but higher-quality dataset (5.6M videos, 3862 classes). Additionally, the video IDs in the TensorFlow Record files have been anonymized, and the mapping to the real YouTube IDs will be periodically updated to exclude any videos that have been subsequently deleted (while preserving their anonymized features).",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "YouTube-8M Segments was released in June 2019 with segment-level annotations. Human-verified labels on about 237K segments on 1000 classes are collected from the validation set of the YouTube-8M dataset. Each video will again come with time-localized frame-level features so classifier predictions can be made at segment-level granularity.\n\nYouTube-8M was updated in May 2018 to include higher-quality, more topical annotations, and to clean up the annotation vocabulary. A number of low-frequency or low-quality labels and associated videos were removed, resulting in a smaller but higher-quality dataset (5.6M videos, 3862 classes). Additionally, the video IDs in the TensorFlow Record files have been anonymized, and the mapping to the real YouTube IDs will be periodically updated to exclude any videos that have been subsequently deleted (while preserving their anonymized features).",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Dataset versions:\nJun 2019 version (current): 230K human-verified segment labels, 1000 classes, 5 segments/video\nMay 2018 version (current): 6.1M videos, 3862 classes, 3.0 labels/video, 2.6B audio-visual features\nFeb 2017 version (deprecated): 7.0M videos, 4716 classes, 3.4 labels/video, 3.2B audio-visual features\nSep 2016 version (deprecated): 8.2M videos, 4800 classes, 1.8 labels/video, 1.9B visual-only features",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02852273  London, England\nf02984331  Singapore\nf02973061  Moscow\nf02883857  Singapore\nf02889193  VN\nf01082888 HK\nf03081958 Changsha \nf01084413 Singapore \nf01084941 HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "50PiB",
+    "Single Size Dataset": "5PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2P"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-14 16:03:01.644640838 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1mvsuqvd3bce6cvlcbpelmkhcjx4rl5ly4tfo4la",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
