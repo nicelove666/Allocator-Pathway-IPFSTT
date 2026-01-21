@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1ryahi4jcdw6ople2rgnf42mprk6qpvskhgqun5i",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Commoncrawl",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://commoncrawl.org/",
+    "Social Media": "https://commoncrawl.org/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "IPFSTT",
+    "Brief history of your project and organization": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.\r\nPrimary training corpus in every LLM.82% of raw tokens used to train GPT-3.Free and open corpus since 2007.Cited in over 8000 research papers.3–5 billion new pages added each month.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.\r\nPrimary training corpus in every LLM.82% of raw tokens used to train GPT-3.Free and open corpus since 2007.Cited in over 8000 research papers.3–5 billion new pages added each month.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use a script to package the files originally stored in the nginx file server into tar files. Each tar file is controlled to be around 17-30G. Finally, the tar file package is converted into a car file. After the conversion is completed, a record of the car file and The metadata of the source file information is stored in our local system for later query.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://commoncrawl.org/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "| f0122215 | ShanDong | ShenSuanYun|\r\n| f02370792 | DongGuan | Juwu Mine |\r\n| f02199203 | Inner Mongolia | Richard|\r\n| f02223170 | HK | tianyou |",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.2PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-25 06:47:15.026192799 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ryahi4jcdw6ople2rgnf42mprk6qpvskhgqun5i",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
